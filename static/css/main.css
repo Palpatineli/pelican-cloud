@@ -78,7 +78,8 @@ nav {
     display: block;
     max-width: 600px;
     padding-bottom: 5px;
-    border-bottom: solid 1px;
+    border-bottom: solid 2px;
+    margin-bottom: 7px;
 }
 
 nav #logo {
@@ -163,4 +164,9 @@ ul#neighbors {
 
 p img {
     max-width:100%
+}
+
+p img.profile {
+    float: right;
+    padding: 10px 0 0 10px;
 }
